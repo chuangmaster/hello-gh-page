@@ -63,7 +63,6 @@ import axios from "axios";
 // import shoppingCart from '../components/ShoppingCart.vue'
 
 export default {
-  name: "HomeView",
   // components: { shoppingItem, shoppingCart },
   data() {
     return {
