@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PomeloView from '../views/Pomelo2023.vue'
 
 const routes = [
   {
@@ -15,7 +16,12 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-    }
+    },
+  },
+  {
+    path: '/pomelo2023',
+    name: 'pomelo',
+    component: PomeloView
   }
 ]
 
